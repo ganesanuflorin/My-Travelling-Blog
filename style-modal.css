@@ -85,6 +85,8 @@ h1 {
     width: 300px;
     text-transform: uppercase;
     cursor: pointer;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .button--pink {
