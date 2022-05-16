@@ -230,7 +230,9 @@ function resetForm() {
   formImgUrl.value = '';
 }
 function clearSaveButtonEvents() {
-
+    let newUpdateButton = saveButton.cloneNode(true);
+    saveButton.parentNode.replaceChild(newUpdateButton, saveButton);
+    saveButton = document.getElementById('save');
 }
 
 // Close modal
