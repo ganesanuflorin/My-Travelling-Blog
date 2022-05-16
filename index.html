@@ -3,195 +3,177 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Cardo|Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Montserrat&display=swap" rel="stylesheet">
-    <title>My Travelling </title>
+    <title>My Travel blog</title>
 </head>
 
-<body>
+<body id="body">
     <div class="container">
         <nav class="nav">
-            <ul class="nav_container">
-                <li class="nav_item">
-                    <a href="" class="nav_link">Travel updates</a>
+            <ul class="nav__container">
+                <li class="nav__item">
+                    <a href="" class="nav__link">Travel updates</a>
                 </li>
-                <li class="nav_item">
-                    <a href="" class="nav_link">Review</a>
+                <li class="nav__item">
+                    <a href="" class="nav__link">Reviews</a>
                 </li>
-                <li class="nav_item">
-                    <a href="" class="nav_link">About</a>
+                <li class="nav__item">
+                    <a href="" class="nav__link">About</a>
                 </li>
-                <li class="nav_item">
-                    <a href="" class="nav_link">Contact</a>
+                <li class="nav__item">
+                    <a href="" class="nav__link">Contact</a>
                 </li>
             </ul>
         </nav>
         <div class="add__container">
-            <a href="modal.html">
-                <button type="button" class="button"> + Add Article</button>
-            </a>
+            <button id="add" type="button" class="button"> + Add Article</button>
         </div>
-        <main>
+        <main id='main'>
             <article>
-                <h1>The complete guide to explore</h1>
-                <h1>Trasilvania, with your bike</h1>
-                <ul class="info_container">
-                    <li class="info_item">Destination Europe</li>
-                    <li class="info_item">Added by
-                        <span class="info_mark">Jonnathan Mercadina</span>
+                <h2 class="title">The complete guide to explore Trasilvania, with your bike</h2>
+                <ul class="info__container">
+                    <li class="info__item">Destination Europe</li>
+                    <li class="info__item">Added by
+                        <span class="info__mark">Jonnathan Mercadina</span>
                     </li>
                     <li class="info__item">July 01, 2018</li>
                 </ul>
-                <div class="actions_container">
-                    <button type="button" class="actions_btn">Edit</button>
-                    <div> | </div>
-                    <button type="button" class="actions_btn">Delete</button>
+                <div class="actions__container">
+                    <button type="button" class="actions__btn">Edit</button>
+                    <button type="button" class="actions__btn">Delete</button>
                 </div>
+
                 <img src="img/bike.jpg" alt="Bike">
-                <div class="text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste pariatur illo, ad at molestias
-                        adipisci laudantium incidunt nulla ipsum magni tempore, aliquid eius doloremque asperiores non
-                        quaerat deleniti quae cumque.
-                    </p>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, officiis at, quam dicta
-                        consectetur
-                        dolorem provident aperiam cum sequi deleniti voluptates sunt ducimus nisi quos ea totam ipsam
-                        optio
-                        dignissimos?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis deleniti eum quo
-                        eveniet
-                        excepturi? Obcaecati ducimus dolore perspiciatis corporis enim maiores quas eveniet saepe
-                        dolorem
-                        reprehenderit! Iusto eligendi unde esse?
-                    </p>
+                <div class="content__container">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est totam laboriosam debitis magnam voluptatum, 
+                        incidunt neque. Totam ullam non quis, repellendus molestiae in itaque natus labore quos ipsum alias,
+                        veritatis nihil! Quisquam labore, sequi minima expedita necessitatibus omnis error amet recusandae atque 
+                        commodi quia! Vel laborum recusandae voluptatum rerum id harum, fuga beatae ut, consequuntur repellendus 
+                        ipsum temporibus libero itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quod tempore quaerat deserunt. 
+                        Voluptatibus possimus, magni quas rem adipisci, esse ipsa fuga, fugit eos repellendus quis? Dicta perferendis, 
+                        doloremque provident repellendus natus fugit obcaecati, voluptate odio, nulla similique officia. 
+                        Iure at aliquam dicta provident nulla modi optio maiores. Similique eos molestiae earum voluptatum nostrum porro, 
+                        consequuntur nihil ex earum. Voluptatum placeat labore necessitatibus repellat. Repudiandae velit suscipit amet tenetur, 
+                        mollitia aut dolor ipsa delectus a autem ut quibusdam incidunt? Nisi facilis voluptatem omnis debitis laborum cupiditate pariatur 
+                        inventore molestiae eveniet!</p>
                 </div>
             </article>
             <article>
-                <h2>Bucegi: Places you must visit before you die</h2>
-                <ul class="info_container">
-                    <li class="info_item">Must Visit</li>
-                    <li class="info_item">Added by
-                        <span class="info_mark">Jonnathan Mercadina</span>
+                <h2 class="title">Bucegi: Places you must visit before you die</h2>
+                <ul class="info__container">
+                    <li class="info__item">Must Visit</li>
+                    <li class="info__item">Added by
+                        <span class="info__mark">Jonnathan Mercadina</span>
                     </li>
-                    <li class="info_item">June 30, 2018</li>
+                    <li class="info__item">June 30, 2018</li>
                 </ul>
-                <div class="actions_container">
-                    <button type="button" class="actions_btn">Edit</button>
-                    <button type="button" class="actions_btn">Delete</button>
+                <div class="actions__container">
+                    <button type="button" class="actions__btn">Edit</button>
+                    <button type="button" class="actions__btn">Delete</button>
                 </div>
+
                 <img src="img/bucegi.jpg" alt="Bucegi">
-                <div class="text">
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, ratione.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, itaque illo! Rerum assumenda
-                        beatae magni temporibus repudiandae provident alias earum debitis sunt ut. Reiciendis nihil
-                        perferendis exercitationem recusandae quam aperiam!
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid sed ipsam ut suscipit,
-                        deserunt
-                        deleniti repudiandae. Velit minus voluptate exercitationem natus, consequatur alias beatae
-                        eligendi
-                        molestias dolorem deserunt repellat? Dolorem?
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit beatae dignissimos illum
-                        voluptatum obcaecati delectus veritatis asperiores nesciunt vitae ad nobis numquam, aspernatur
-                        ea
-                        quia quod id expedita ut tempora illo accusantium. Rerum alias dolorem voluptates quas sit,
-                        ipsum
-                        provident vel labore commodi perferendis totam quis voluptatem? Ex doloribus officia accusantium
-                        non? Dolore distinctio labore in architecto, voluptates quaerat praesentium nesciunt laudantium
-                        illo
-                        at corporis, sunt consequatur dolor nostrum cupiditate, ea veritatis quibusdam nisi laboriosam
-                        provident. Odit saepe libero facere neque reiciendis molestiae mollitia nulla doloremque! Odio,
-                        cum.
-                        Modi, unde, placeat voluptatibus laborum eveniet commodi recusandae quod magni nihil voluptate
-                        perferendis vitae sed natus distinctio possimus voluptates alias culpa blanditiis nisi provident
-                        illo nemo error? Autem blanditiis doloremque quidem, ducimus et explicabo velit reiciendis
-                        excepturi. Eaque reprehenderit sunt totam accusamus dicta qui deleniti voluptas adipisci.
-                        Doloremque
-                        aliquid laborum officiis rerum, architecto, porro dolor, nihil aperiam ea suscipit vero facilis
-                        dolorem accusamus blanditiis esse nemo at sint. Cupiditate aspernatur, neque eos earum
-                        reiciendis,
-                        tempore impedit possimus aut quasi nemo et perferendis velit provident a consequatur molestiae
-                        hic
-                        quos? Doloribus, atque non.
-                    </p>
+                <div class="content__container">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est totam laboriosam debitis magnam voluptatum, 
+                        incidunt neque. Totam ullam non quis, repellendus molestiae in itaque natus labore quos ipsum alias,
+                        veritatis nihil! Quisquam labore, sequi minima expedita necessitatibus omnis error amet recusandae atque 
+                        commodi quia! Vel laborum recusandae voluptatum rerum id harum, fuga beatae ut, consequuntur repellendus 
+                        ipsum temporibus libero itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quod tempore quaerat deserunt. 
+                        Voluptatibus possimus, magni quas rem adipisci, esse ipsa fuga, fugit eos repellendus quis? Dicta perferendis, 
+                        doloremque provident repellendus natus fugit obcaecati, voluptate odio, nulla similique officia. 
+                        Iure at aliquam dicta provident nulla modi optio maiores. Similique eos molestiae earum voluptatum nostrum porro, 
+                        consequuntur nihil ex earum. Voluptatum placeat labore necessitatibus repellat. Repudiandae velit suscipit amet tenetur, 
+                        mollitia aut dolor ipsa delectus a autem ut quibusdam incidunt? Nisi facilis voluptatem omnis debitis laborum cupiditate pariatur 
+                        inventore molestiae eveniet!</p>
                 </div>
             </article>
             <article>
-                <h2>
-                    Sarmale - stuffed cabbage rolls. Good or bad?
-                </h2>
-                <ul class="info_container">
-                    <li class="info_item">Food</li>
-                    <li class="info_item">Added by
-                        <span class="info_mark">Jonnathan Mercadina</span>
+                <h2 class="title">Romania: The land of dreams</h2>
+                <ul class="info__container">
+                    <li class="info__item">Village</li>
+                    <li class="info__item">Added by
+                        <span class="info__mark">Jonnathan Mercadina</span>
                     </li>
-                    <li class="info_item">December 29, 2017</li>
+                    <li class="info__item">June 17, 2018</li>
                 </ul>
-                <div class="actions_container">
-                    <button type="button" class="actions_btn">Edit</button>
-                    <button type="button" class="actions_btn">Delete</button>
+                <div class="actions__container">
+                    <button type="button" class="actions__btn">Edit</button>
+                    <button type="button" class="actions__btn">Delete</button>
                 </div>
+
+                <img src="img/village.jpg" alt="Village">
+                <div class="content__container">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est totam laboriosam debitis magnam voluptatum, 
+                        incidunt neque. Totam ullam non quis, repellendus molestiae in itaque natus labore quos ipsum alias,
+                        veritatis nihil! Quisquam labore, sequi minima expedita necessitatibus omnis error amet recusandae atque 
+                        commodi quia! Vel laborum recusandae voluptatum rerum id harum, fuga beatae ut, consequuntur repellendus 
+                        ipsum temporibus libero itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quod tempore quaerat deserunt. 
+                        Voluptatibus possimus, magni quas rem adipisci, esse ipsa fuga, fugit eos repellendus quis? Dicta perferendis, 
+                        doloremque provident repellendus natus fugit obcaecati, voluptate odio, nulla similique officia. 
+                        Iure at aliquam dicta provident nulla modi optio maiores. Similique eos molestiae earum voluptatum nostrum porro, 
+                        consequuntur nihil ex earum. Voluptatum placeat labore necessitatibus repellat. Repudiandae velit suscipit amet tenetur, 
+                        mollitia aut dolor ipsa delectus a autem ut quibusdam incidunt? Nisi facilis voluptatem omnis debitis laborum cupiditate pariatur 
+                        inventore molestiae eveniet!</p>
+                </div>
+            </article>
+            <article>
+                <h2 class="title">Sarmale - stuffed cabbage rolls. Good or bad?</h2>
+                <ul class="info__container">
+                    <li class="info__item">Food</li>
+                    <li class="info__item">Added by
+                        <span class="info__mark">Jonnathan Mercadina</span>
+                    </li>
+                    <li class="info__item">December 29, 2017</li>
+                </ul>
+                <div class="actions__container">
+                    <button type="button" class="actions__btn">Edit</button>
+                    <button type="button" class="actions__btn">Delete</button>
+                </div>
+
                 <img src="img/sarmale.jpg" alt="Sarmale">
-                <div class="text">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veniam minus placeat unde et
-                        necessitatibus molestiae voluptate dolorem illo eius officia asperiores provident,
-                        exercitationem
-                        quo repellendus reprehenderit delectus praesentium aut expedita voluptates quia nostrum
-                        perspiciatis. Facilis illo repudiandae odit tempore temporibus quia aliquid ut aliquam nisi
-                        delectus
-                        modi at alias unde, error quaerat provident itaque illum autem suscipit, iste atque! Rerum
-                        repellendus est possimus, odio qui quas dignissimos. Aut alias reiciendis laboriosam iure ad
-                        porro.
-                        Reprehenderit, sed rerum? Adipisci, reiciendis veniam tempora officiis a molestiae est, modi
-                        unde ab
-                        eius ea sunt sequi porro fuga incidunt fugit animi ipsam ipsum aut at accusamus impedit?
-                        Voluptate
-                        doloremque esse dolorem id vitae recusandae expedita repudiandae nulla quas eligendi, eius
-                        eveniet
-                        consequatur placeat dolores, aliquam laudantium fuga rerum unde! Nam veniam ex obcaecati unde
-                        ratione vitae ducimus blanditiis soluta. Animi ipsum corrupti maiores earum quidem, facilis
-                        consequatur vitae cupiditate sed suscipit magni odio.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error maiores!
-                        Exercitationem
-                        ipsum facilis nemo id voluptas quibusdam obcaecati sequi dolorum saepe, corrupti impedit eos,
-                        atque
-                        velit aliquam tempora suscipit iusto optio necessitatibus dolores at iste? Inventore, facilis
-                        numquam! Commodi porro doloremque, modi quae sit molestias tempora! Molestiae sint provident
-                        dolores
-                        fugiat possimus rem quas repellat, ex soluta doloribus culpa sequi fugit, reiciendis eveniet
-                        nobis
-                        accusantium repudiandae tempore minus cum reprehenderit voluptatem dicta. Sequi, delectus.
-                        Similique
-                        autem, reprehenderit ut iure ipsam sint! Tenetur sunt, beatae similique quos ex ad eveniet
-                        nostrum!
-                        Itaque sit dolore optio hic eius fugit culpa laudantium perspiciatis! Aut libero voluptates
-                        ullam a
-                        rerum labore corporis sit iste possimus numquam, omnis eaque ratione architecto doloribus
-                        officia
-                        vero ex! Provident in non quas dolore incidunt! Pariatur similique, quisquam officia iure ipsa
-                        eum
-                        quod odio. Et quos dolores sequi dolorem deleniti pariatur nobis consequuntur accusantium
-                        aliquam
-                        nostrum ipsum veritatis non ut, accusamus velit iure voluptatibus! Aut nemo reiciendis
-                        praesentium.
-                    </p>
+                <div class="content__container">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est totam laboriosam debitis magnam voluptatum, 
+                        incidunt neque. Totam ullam non quis, repellendus molestiae in itaque natus labore quos ipsum alias,
+                        veritatis nihil! Quisquam labore, sequi minima expedita necessitatibus omnis error amet recusandae atque 
+                        commodi quia! Vel laborum recusandae voluptatum rerum id harum, fuga beatae ut, consequuntur repellendus 
+                        ipsum temporibus libero itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quod tempore quaerat deserunt. 
+                        Voluptatibus possimus, magni quas rem adipisci, esse ipsa fuga, fugit eos repellendus quis? Dicta perferendis, 
+                        doloremque provident repellendus natus fugit obcaecati, voluptate odio, nulla similique officia. 
+                        Iure at aliquam dicta provident nulla modi optio maiores. Similique eos molestiae earum voluptatum nostrum porro, 
+                        consequuntur nihil ex earum. Voluptatum placeat labore necessitatibus repellat. Repudiandae velit suscipit amet tenetur, 
+                        mollitia aut dolor ipsa delectus a autem ut quibusdam incidunt? Nisi facilis voluptatem omnis debitis laborum cupiditate pariatur 
+                        inventore molestiae eveniet!</p>
                 </div>
             </article>
         </main>
         <footer class="footer">
-            <a href="#" class="footer_previous">Previuos</a>
-            <a href="#" class="footer_next">Next</a>
+            <a href="#" class="footer__link">previous</a>
+            <a href="#" class="footer__link">next</a>
         </footer>
     </div>
+    <div class="modal__overlay">
+        <div class="modal">
+            <div class="modal__content">
+                <h2 class="title">Add/Edit article</h2>
+                <div class="inputs__container">
+                    <input id="formTitle" type="text" class="input" placeholder="Please enter title">
+                    <input id="formTag" type="text" class="input" placeholder="Please enter tag">
+                    <input id="formAuthor" type="text" class="input" placeholder="Please enter author">
+                    <input id="formDate" type="text" class="input" placeholder="Please enter date">
+                    <input id="formImgUrl" type="text" class="input" placeholder="Please enter image url">
+                </div>
+                <textarea id="formContent" class="textarea" name="content" cols="28" rows="7" placeholder="Please enter content"></textarea>
+                <div class="modal__buttons">
+                    <button id="cancel" type="button" class="button">Cancel</button>
+                    <button id="save" type="button" class="button button--pink">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+<script src="script.js"></script>
 </html>
